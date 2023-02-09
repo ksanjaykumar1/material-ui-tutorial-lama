@@ -46,9 +46,9 @@ function Navbar() {
     console.log('handleClose');
   };
   return (
-    // position='stick' will make navbar on top
+    // position='sticky' will make navbar on top
     // even when we scroll down
-    <AppBar position='stick'>
+    <AppBar position='sticky'>
       <StyledToolbar>
         <Typography variant='h6' sx={{ display: { xs: 'none', sm: 'block' } }}>
           Book Club
